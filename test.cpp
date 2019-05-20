@@ -1,9 +1,9 @@
-#include <climits>
 #include <iostream>
-#include <string>
 using namespace std;
 int main() {
-    cout << string::npos << endl;
-    cout << string::npos + 1 << endl;
-    cout << (string::npos == string::npos + 1);
+    int c = 1;
+    int a[10] = {c};
+    for (int c : a) {
+        cout << c << endl;
+    }
 }
